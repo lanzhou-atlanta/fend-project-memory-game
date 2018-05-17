@@ -120,7 +120,7 @@ h1 {
 
  .overlay {
 	position: fixed;
-	top: 50%;
+	top: 40%;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -163,14 +163,14 @@ h1 {
 }
 
 .popup .close:hover {
-	color: #E5F720;
+	color: rgb(36, 36, 34);
 }
 
 .popup .message {
 	max-height: 30%;
 	overflow: auto;
     text-align: center;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .modalShow {
@@ -184,12 +184,12 @@ h1 {
 
 #play-again {
 	background-color: #17aec9;
-	padding: 0.7rem 1rem;
-	font-size: 1.1rem;
+	padding: 0.7em 1em;
+	font-size: 1.1em;
 	display: block;
 	margin: 0 auto;
 	width: 50%;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Courier New', Courier, monospace;
 	color: #ffffff;
     border-radius: 5px;
     cursor: pointer;

@@ -189,17 +189,17 @@ function moveCounter(){
         startTimer();
     }
     // setting rates based on moves
-    if (moves > 8 && moves < 16){
+    if (moves > 32 && moves < 60){
         for( i= 0; i < 3; i++){
             if(i > 1){
-                stars[i].style.visibility = "collapse";
+                stars[i].style.visibility = "hidden";
             }
         }
     }
-    else if (moves > 17){
+    else if (moves > 60){
         for( i= 0; i < 3; i++){
             if(i > 0){
-                stars[i].style.visibility = "collapse";
+                stars[i].style.visibility = "hidden";
             }
         }
     }
@@ -210,10 +210,7 @@ function celebratePopup(time,move,star){
         document.getElementById("finalMove").innerHTML = move;
         document.getElementById("starRating").innerHTML = star;
         document.getElementById("totalTime").innerHTML = time;
-
-        //closeicon on modal
         closeModal();
-    
 }
 
 function closeModal(){
@@ -222,7 +219,6 @@ function closeModal(){
         location.reload(true);
     });
 }
-
 
 function playAgain(){
     modal.classList.remove("modalShow");
