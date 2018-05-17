@@ -87,7 +87,7 @@ h1 {
 
 .score-panel {
     text-align: left;
-    width: 345px;
+    width: 600px;
     margin-bottom: 10px;
 }
 
@@ -107,3 +107,91 @@ h1 {
     float: right;
     cursor: pointer;
 }
+
+.timer {
+    display: inline-block;
+}
+
+
+/*
+ * Styles for congratulations modal
+ */
+
+
+ .overlay {
+	position: fixed;
+	top: 50%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    background: rgba(17, 131, 184, 0.7);
+    background: center;
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+}
+
+.overlay:target {
+    visibility: visible;
+	opacity: 1;
+}
+  
+.popup {
+	margin: 70px auto;
+	padding: 20px;
+	background: #ffffff;
+	border-radius: 5px;
+	width: 85%;
+    position: relative;
+}
+  
+.popup h2 {
+	margin-top: 0;
+	color: rgb(51, 51, 51);
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+
+.popup .close {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+.popup .close:hover {
+	color: #E5F720;
+}
+
+.popup .message {
+	max-height: 30%;
+	overflow: auto;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.modalShow {
+	visibility: visible;
+	opacity: 1;
+}
+
+#starRating li {
+	display: inline-block;
+}
+
+#play-again {
+	background-color: #17aec9;
+	padding: 0.7rem 1rem;
+	font-size: 1.1rem;
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

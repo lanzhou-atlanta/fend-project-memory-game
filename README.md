@@ -2,19 +2,23 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+* [What is the Memory Game](#What is the Memory Game)
+* [How to Play](#How to Play)
+* [Chanlenge](#Challenge)
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
 
-To get started, open `js/app.js` and start building out the app's functionality
+## What is the Memory Game
+This is a card matching game built to test player's memory. There's a deck of cards with different symbols faced down. 
+![snippet](img/snippet.png)
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## How to Play
+The deck is made up of 8 pairs of different cards, each with different symols on them. The cards are aranged randomly on the grid with the symbol not showing up. Click on two hidden cards at a time to locate the matching pair. Each turn, one card is flipped over to reveal its underlying symbol; then a second card is flipped, if the cards are matched, both cards stay flipped over; if the cards do not match, both cards are flipped face down.
+The game ends once all cards have been correctly matched and are flipped over.
 
-## Contributing
+Click on the Restart icon at the top right corner to start a new deck of cards
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+## Challenge
+Match cards in less time with less moves.
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
