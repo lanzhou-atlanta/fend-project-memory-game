@@ -1,4 +1,3 @@
-
  const deck = document.querySelector('.deck');
  const cardList = deck.getElementsByTagName('i');
 
