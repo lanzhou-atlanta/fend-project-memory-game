@@ -1,17 +1,7 @@
 # Memory Game Project
 
-## Table of Contents
-
-* [What is the Memory Game](#What is the Memory Game)
-* [How to Play](#How to Play)
-* [Chanlenge](#Challenge)
-
-## Instructions
-
-
 ## What is the Memory Game
 This is a card matching game built to test player's memory. There's a deck of cards with different symbols faced down. 
-![snippet](img/snippet.png)
 
 ## How to Play
 The deck is made up of 8 pairs of different cards, each with different symols on them. The cards are aranged randomly on the grid with the symbol not showing up. Click on two hidden cards at a time to locate the matching pair. Each turn, one card is flipped over to reveal its underlying symbol; then a second card is flipped, if the cards are matched, both cards stay flipped over; if the cards do not match, both cards are flipped face down.
