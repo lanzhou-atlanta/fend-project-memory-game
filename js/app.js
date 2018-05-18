@@ -53,7 +53,7 @@ function newDeck() {
     for (var i=0; i<cardArray.length;i++){
         const curCard = deck.getElementsByTagName('li')[i];
         curCard.addEventListener('click', function() {
-          moveCounter();
+          
           const myCardName = curCard.getElementsByTagName('i')[0].className;
           const cardState = curCard.className
           if (cardState != stateClose) {
@@ -61,6 +61,7 @@ function newDeck() {
             
             return;
           }
+          moveCounter();
           setCardState(curCard, stateOpen);
           const openCard = findOpenCard(curCard);
           if (null != openCard) {
