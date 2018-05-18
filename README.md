@@ -12,3 +12,7 @@ Click on the Restart icon at the top right corner to start a new deck of cards
 ## Challenge
 Match cards in less time with less moves.
 
+## Dependencies
+- Browser
+- Font Awesome
+- jquery
